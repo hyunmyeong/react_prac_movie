@@ -37,3 +37,18 @@ state가 바뀌면 렌더링이 된다.
 
 + useEffect(실행할 코드, [특정 값])
 => 특정 값이 바뀔 때 마다 코드가 실행됨
+
+
+6. map(value, index)
+
+=> 이전의 array를 가져와 변형 (새로운 값을 return)
+=> array의 각 요소에 map(함수)를 적용
+
+
+ex) ['there', 'is', 'a', 'ball']
+
+['there', 'is', 'a', 'ball'].map(() => ":)")
+=> [":)", ":)", ":)", ":)"]
+
+['there', 'is', 'a', 'ball'].map((item) => item.toUpperCase())
+=> ['THERE', 'IS', 'A', 'BALL']
