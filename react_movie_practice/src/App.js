@@ -3,6 +3,7 @@ import Home from './routes/Home';
 import Detail from './components/Detail';
 
 
+
 function App() {
   return (
     <div>
